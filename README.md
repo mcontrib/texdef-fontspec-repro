@@ -7,6 +7,9 @@ Ensure you have a $\LaTeX$ environment set up with the `texdef` utility installe
 - `james-yu.latex-workshop`
 - `tecosaur.latex-utilities`
 
+> [!WARNING] 
+> Ensure that your file paths do not contain non-ASCII characters (e.g., Chinese characters) as this may cause issues with the `texdef` command.
+
 ### Steps to Reproduce
 
 #### Test Case 1: Go to Definition for `.cls` File in the Same Directory
